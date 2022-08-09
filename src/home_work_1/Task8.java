@@ -9,6 +9,8 @@ public class Task8 {
         System.out.print("Введите число от -128 до 127: ");
         byte a = in.nextByte();
 
+        in.close();
+
         System.out.println(toBinaryString(a));
     }
 
