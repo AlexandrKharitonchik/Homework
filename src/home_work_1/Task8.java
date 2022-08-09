@@ -34,7 +34,7 @@ public class Task8 {
             }
 
             binNumStrReversedBuilder = new StringBuilder(binNumStr).reverse(); // Т.к. все числа добавлялись
-            // к концу строку, необходимо ее развернуть
+            // к концу, строку необходимо ее развернуть
 
             binNumStrReversed = binNumStrReversedBuilder.toString(); // Переменная, которая используется в конце метода
             // после конструкции return. В нее заносится прямой код.
